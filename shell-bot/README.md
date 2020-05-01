@@ -2,15 +2,14 @@
 服务器需要预装环境：nodejs pm2
 
 ## Config
-Follow [Telegram instructions](https://telegram.org/blog/bot-revolution) to create a bot
-Then put your telegram user ID and bot token in `config.js`:
+获取你的Telegram的ID和机器人的Token写入config.js配置文件
 ```javascript
 module.exports = {
     config:function(){
         return (
             {
-                adminUsers:[ADMIN_ID], //admin users' telegram id, should be numbers
-                botToken: 'YOUR_BOT_TOEKN', // bot token
+                adminUsers:[ADMIN_ID], //你的telegram ID应该是数字
+                botToken: 'YOUR_BOT_TOEKN', // 机器人Token
 
             }
         );
