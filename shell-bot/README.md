@@ -1,4 +1,4 @@
-##condition
+## condition
 服务器需要预装环境：nodejs pm2
 
 ## Config
@@ -24,6 +24,10 @@ npm start
 or 
 ```
 node index.js
+```
+## pm2
+```
+pm2 start pm2.json
 ```
 
 That is it!
