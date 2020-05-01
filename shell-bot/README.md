@@ -1,3 +1,6 @@
+##condition
+服务器需要预装环境：nodejs pm2
+
 ## Config
 Follow [Telegram instructions](https://telegram.org/blog/bot-revolution) to create a bot
 Then put your telegram user ID and bot token in `config.js`:
